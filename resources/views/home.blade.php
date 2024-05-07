@@ -8,6 +8,7 @@
     @include('components.popular_items')
     @include('components.featured_restaurants')
     @include('components.searchByFood')
+    @include('components.features_and_app_download')
     @include('components.details')
     @include('components.ready_to_order')
     @include('components.footer')

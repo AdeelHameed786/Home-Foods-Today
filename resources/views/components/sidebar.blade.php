@@ -1,5 +1,6 @@
-<aside class="main-sidebar">
-    <h2 class="filters-title">Filters</h2>
+<aside class="main-sidebar my-2">
+    <h2 class="filters-title d-flex justify-content-between align-items-center">Filters <i class="fa-solid fa-xmark cross-icon"></i></h2>
+
     <div class="sort-container">
         <h3 class="sort-by-title">Sort by</h3>
         <div class="radio-container">

@@ -14,230 +14,190 @@
         }
     }
 </style>
-<div class="container-fluid mt-5" style="background-color: #FEFAF1">
-    <div class="container pt-5 pb-5">
-        <h2 style="font-size: 43px">Search by Food</h2>
-        <div class="slider-container" id="searchByFood">
-            <div class="row">
-                <div class="slider-arrows  d-flex justify-content-end">
-                    <button type="button" class="btn">View All <img src="/home/viewAll.png" alt=""></button>
-                    <button type="button" id="left" class="btn slider-arrow slider-arrow-prev"><img src="/home/Arrowleft.png" width="50px" height="50px" alt=""></button>
-                    <button type="button" id="right" class="btn slider-arrow slider-arrow-next"><img src="/home/Arrowright.png" width="50px"
-                            height="50px" alt=""></button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="slides-wrapper">
-                        <div class="slides-container">
-                            <ul class="slider-list">
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (1).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Steak</h1>
-
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (3).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Chowmein</h1>
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (4).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Sub-sandiwch
-                                        </h1>
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (5).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Noodles</h1>
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (6).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Burger</h1>
-
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (7).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Pizza</h1>
-
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (3).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Chowmein</h1>
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (4).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Sub-sandiwch
-                                        </h1>
-                                    </div>
-                                </li>
-                                <li class="slider-item d-flex justify-content-center">
-                                    <div class="card cardImgFood mt-4"
-                                        style="width: 13rem; background-color: transparent !important;">
-                                        <img src="/home/searchbyfood (5).png" style="border-radius: 50%"
-                                            class="card mt-4-img-top" alt="...">
-                                        <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Noodles</h1>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+<section class="search-by-food-section">
+    <div class="container-fluid mt-5" >
+        <div class="container pt-5 pb-5">
+            <div class="slider-container" id="searchByFood">
+                <div class="d-flex justify-content-between">
+                    <h2>Search by Food</h2>
+                    <div class="slider-arrows  d-flex justify-content-end">
+                        <button type="button" class="btn">View All</button>
+                        <button type="button" id="left" class="btn slider-arrow slider-arrow-prev"><img src="/home/Arrowleft.png" width="50px" height="50px" alt=""></button>
+                        <button type="button" id="right" class="btn slider-arrow slider-arrow-next"><img src="/home/Arrowright.png" width="50px" height="50px" alt=""></button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="" style="background-color: #FEEFD0">
-    <div class="container custom-card-food p-5">
-        <div class="row p-5" style="background-color: white; border-radius: 46px">
-            <div class="col-xl-4">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-xl-5 center-col-5">
-                            <img src="/home/discount.png" width="110px" alt="">
-                        </div>
-                        <div class="col-xl-7 center-col-7 d-flex align-items-center">
-                            <h2 class="mb-0" style="font-size: 30px; color: #913737; padding: 0px;"><b>Daily
-                                    Discounts</b></h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-xl-5 center-col-5">
-                            <img src="/home/tracking.png" width="110px" alt="">
-                        </div>
-                        <div class="col-xl-7 center-col-7 d-flex align-items-center">
-                            <h2 class="mb-0" style="font-size: 30px; color: #913737; padding: 0;"><b>Live
-                                    Tracking</b></h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 d-flex">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-xl-5 center-col-5">
-                            <img src="/home/trackingd.png" width="110px" alt="">
-                        </div>
-                        <div class="col-xl-7 center-col-7 d-flex align-items-center">
-                            <h2 class="mb-0" style="font-size: 30px; color: #913737; padding: 0px;"><b>Quick
-                                    Delivery</b></h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-container">
-        
-            <img class="w-100" src="/home/AppDownload.png" alt="">
-        {{-- <div class="row app">
-            <div class="col-xl-5 center-col-5">
-                <div style="background-color: transparent;" class="card d-flex justify-content-end">
-                    <img src="/home/mobile.png" width="392px" alt="">
-                </div>
-            </div>
-            <div class="col-xl-4" style="background-color: #FEEFD0;">
-                <div style="background-color: transparent;" class="card d-flex justify-content-end">
-                    <h2 style="font-size: 60px; color:#913737">Install the app</h2>
-                    <p style="font-size: 18px">It's never been easier to order food. Look for the finest discounts and
-                        you'll be lost in a world of delectable food.</p>
-                </div>
-               
-            </div>
-        </div> --}}
-    </div>
-</div>
-<script>
-    const sliderList = document.querySelector("#searchByFood .slider-list");
-
-    arrowIcons = document.querySelectorAll("#searchByFood .slider-arrow");
-
-    let isDragging = false;
-
-    if(sliderList.clientWidth == sliderList.scrollWidth) {
-        sliderList[0].parentElement.style.display = "none";
-        sliderList[1].parentElement.style.display = "none";
-    }
-
-    const handleIcons = (scrollVal) => {
-    console.log("scrollVal", scrollVal);
-    console.log("sliderList.scrollWidth", sliderList.scrollWidth);
-    console.log("sliderList.clientWidth", sliderList.clientWidth);
-      let maxScrollableWidth = sliderList.scrollWidth - sliderList.clientWidth;
-      arrowIcons[0].style.opacity = scrollVal <= 0 ? "0.5" : "1";
-
-      arrowIcons[1].style.opacity = maxScrollableWidth - scrollVal <= 1 ? "0.5" : "1";
-    }
-
-    arrowIcons.forEach(icon => {
-      icon.addEventListener("click", () => {
-        // if clicked icon is left, reduce 350 from sliderList scrollLeft else add
-        let scrollWidth = sliderList.scrollLeft += icon.id === "left" ? -340 : 340;
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="slides-wrapper">
+                            <div class="slides-container">
+                                <ul class="slider-list">
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (1).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Steak</h1>
     
-        handleIcons(scrollWidth);
-      });
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (3).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Chowmein</h1>
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (4).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Sandiwch
+                                            </h1>
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (5).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Noodles</h1>
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (6).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Burger</h1>
+    
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (7).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Pizza</h1>
+    
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (3).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Chowmein</h1>
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (4).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Sub-sandiwch
+                                            </h1>
+                                        </div>
+                                    </li>
+                                    <li class="slider-item d-flex justify-content-center">
+                                        <div class="cardImgFood mt-4"
+                                            style="width: 13rem; background-color: transparent !important;">
+                                            <img src="/home/searchbyfood (5).png" style="border-radius: 50%"
+                                                class="card mt-4-img-top" alt="...">
+                                            <h1 style="font-size: 22px; padding: 10px 27px 0px 0px;">Noodles</h1>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    const searchByFoodSliderList = document.querySelector("#searchByFood .slider-list");
+    searchByFoodSliderListArrowIcons = document.querySelectorAll("#searchByFood .slider-arrow");
+    let isSearchByFoodSliderListDragging = false;
+    let searchByFoodSliderListStartX = 0;
+    let searchByFoodSliderListStartY = 0; 
+
+    if (searchByFoodSliderList.clientWidth == searchByFoodSliderList.scrollWidth) {
+        searchByFoodSliderListArrowIcons[0].parentElement.style.display = "none";
+        searchByFoodSliderListArrowIcons[1].parentElement.style.display = "none";
+    }
+
+    const handleSearchByFoodIcons = (scrollVal) => {
+        let maxScrollableWidth = searchByFoodSliderList.scrollWidth - searchByFoodSliderList.clientWidth;
+        searchByFoodSliderListArrowIcons[0].style.opacity = scrollVal <= 0 ? "0.5" : "1";
+        searchByFoodSliderListArrowIcons[1].style.opacity = maxScrollableWidth - scrollVal <= 1 ? "0.5" : "1";
+    }
+
+    searchByFoodSliderListArrowIcons.forEach(icon => {
+        icon.addEventListener("click", () => {
+            let scrollWidth;
+            const dragDistance = window.innerWidth < 575 ? 276 : 340;
+            if (icon.id === "left") {
+                scrollWidth = searchByFoodSliderList.scrollLeft -= dragDistance;
+            } else if (icon.id === "right") { // Corrected ID check
+                scrollWidth = searchByFoodSliderList.scrollLeft += dragDistance;
+            }
+            handleSearchByFoodIcons(scrollWidth);
+        });
     });
 
+    const searchByFoodSliderListDragging = (e) => {
+        if (!isSearchByFoodSliderListDragging) return;
 
+        // Calculate movementX for both touch and mouse events
+        const movementX = e.type === 'touchmove' ? e.touches[0].clientX - searchByFoodSliderListStartX : e.movementX;
 
-    const dragging = (e) => {
-      if(!isDragging) return;
-      sliderList.classList.add("dragging");
-      sliderList.scrollLeft -= e.movementX;
-      handleIcons(sliderList.scrollLeft)
+        // Calculate movementY for both touch and mouse events
+        const movementY = e.type === 'touchmove' ? e.touches[0].clientY - searchByFoodSliderListStartY : e.movementY;
+
+        // Calculate the absolute value of movementX and movementY
+        const absMovementX = Math.abs(movementX);
+        const absMovementY = Math.abs(movementY);
+
+        // Allow default touch behavior if the touch event occurs outside the tabs section
+        if (!searchByFoodSliderList.contains(e.target)) {
+            return;
+        }
+
+        // If the drag is more horizontal than vertical, handle tab scrolling
+        if (absMovementX > absMovementY) {
+            e.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
+            searchByFoodSliderList.classList.add("dragging");
+            searchByFoodSliderList.scrollLeft -= movementX;
+            handleSearchByFoodIcons(searchByFoodSliderList.scrollLeft);
+            searchByFoodSliderListStartX = e.type === 'touchmove' ? e.touches[0].clientX : searchByFoodSliderListStartX;
+        }
     }
 
-    const dragStop = () => {
-      isDragging = false;
-      sliderList.classList.remove("dragging");
+    const searchByFoodSliderDragStart = (e) => {
+        if (e.type === 'mousedown' || e.touches.length === 1) {
+            isSearchByFoodSliderListDragging = true;
+            searchByFoodSliderListStartX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+            searchByFoodSliderListStartY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+        }
     }
 
-    sliderList.addEventListener("mousedown", () => isDragging = true);
-    sliderList.addEventListener("mousemove", dragging);
-    document.addEventListener("mouseup", dragStop);
+    const searchByFoodSliderDragStop = () => {
+        isSearchByFoodSliderListDragging = false;
+        searchByFoodSliderList.classList.remove("dragging");
+    }
 
+    searchByFoodSliderList.addEventListener("mousedown", searchByFoodSliderDragStart);
+    searchByFoodSliderList.addEventListener("mousemove", searchByFoodSliderListDragging);
+    document.addEventListener("mouseup", searchByFoodSliderDragStop);
+    searchByFoodSliderList.addEventListener("touchstart", searchByFoodSliderDragStart);
+    searchByFoodSliderList.addEventListener("touchmove", searchByFoodSliderListDragging);
+    document.addEventListener("touchend", searchByFoodSliderDragStop);
 
+    handleSearchByFoodIcons(searchByFoodSliderList.scrollLeft);
     
-                
-
-
-
-
-
-
-
-   
 </script>

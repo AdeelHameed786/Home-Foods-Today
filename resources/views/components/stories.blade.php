@@ -1,8 +1,8 @@
-<section class="stories-section py-50px">
-    <div class="container pt-4">
-        <h1 class="pb-5">Stories</h1>
+<section class="stories-section py-md-50px py-30px">
+    <div class="container">
+        <h1 class="pb-md-5 pb-4">Stories</h1>
         <div class="slider-container-for-side-disabled-buttons">
-            <div class="swiper slider">
+            <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="/home/Image.png" style="border-radius: 50%"
