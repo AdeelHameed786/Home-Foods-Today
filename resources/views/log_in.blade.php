@@ -16,17 +16,18 @@
             <div class="or my-4">
                 OR
             </div>
-            <form>
+            <form action="#" method="POST" id="login-form">
                 <div class="one-field-in-a-row-container mb-md-4 mb-3">
-                    <div class="full-width-label-and-field field-and-label-container">
-                        <input type="email" class="form-control child-input" id="email-address" placeholder="Enter your email address">
+                    <div class="full-width-label-and-field field-and-label-container flex-column gap-2">
+                        <label for="email-address">Email</label>
+                        <input type="email" class="form-control child-input" id="email-address" name="email_address" placeholder="Enter your email address">
                     </div>
                 </div>  
                 <div class="one-field-in-a-row-container mb-4">
-                    <div class="full-width-label-and-field field-and-label-container">
-
+                    <div class="full-width-label-and-field field-and-label-container flex-column gap-2">
+                        <label for="password">Password</label>
                         <div class="input-container">
-                            <input type="password" class="form-control password-input-field" id="confirmPassword" placeholder="Enter your password">
+                            <input type="password" class="form-control password-input-field" id="password" name="password" placeholder="Enter your password">
                             <i class="fa-regular fa-eye" data-target="confirmPassword" data-action="show"></i>
                             <i class="fa-regular fa-eye-slash" data-target="confirmPassword" data-action="hide"></i>
                         </div>
@@ -45,4 +46,4 @@
 
 </main>
 
-@include('components.footer')
+@include('components.footer')   

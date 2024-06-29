@@ -34,6 +34,51 @@
                                         </div>
                                         <div class="col-5 incre-and-decre-buton-col">
                                             <div class="incre-and-decre-buton d-flex">
+                                                <i class="fa fa-trash-can"></i>
+                                                <p class="quantity mb-0">1</p>
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="selected-item pb-3">
+                            <div class="row">
+                                <div class="col-4 img-container">
+                                    <img src="home/available-items/pizza.png" alt="" class="w-100">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row content-container">
+                                        <div class="col-7">
+                                            <h6 class="title mt-2">Cheese Pizza</h6>
+                                            <p class="mb-0">OMI 80</p>
+                                        </div>
+                                        <div class="col-5 incre-and-decre-buton-col">
+                                            <div class="incre-and-decre-buton d-flex">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                                <p class="quantity mb-0">1</p>
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="selected-item pb-3">
+                            <div class="row">
+                                <div class="col-4 img-container">
+                                    <img src="home/available-items/shake.png" alt="" class="w-100">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row content-container">
+                                        <div class="col-7">
+                                            <h6 class="title mt-2">Banana Shakes</h6>
+                                            <p class="mb-0">OMI 70</p>
+                                        </div>
+                                        <div class="col-5 incre-and-decre-buton-col">
+                                            <div class="incre-and-decre-buton d-flex">
                                                 <i class="fa-solid fa-trash-can"></i>
                                                 <p class="quantity mb-0">1</p>
                                                 <i class="fa fa-plus" aria-hidden="true"></i>
@@ -58,59 +103,12 @@
                                         <div class="col-5 incre-and-decre-buton-col">
                                             <div class="incre-and-decre-buton d-flex">
                                                 <i class="fa-solid fa-trash-can"></i>
-                                                <p class="quantity mb-0">2</p>
+                                                <p class="quantity mb-0">1</p>
                                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                             </div>
                                         </div>
                                     </div>    
                                 </div>
-                                
-                            </div>
-                        </div>
-                        <div class="selected-item pb-3">
-                            <div class="row">
-                                <div class="col-4 img-container">
-                                    <img src="home/available-items/shake.png" alt="" class="w-100">
-                                </div>
-                                <div class="col-8">
-                                    <div class="row content-container">
-                                        <div class="col-7">
-                                            <h6 class="title mt-2">Banana Shakes</h6>
-                                            <p class="mb-0">OMI 70</p>
-                                        </div>
-                                        <div class="col-5 incre-and-decre-buton-col">
-                                            <div class="incre-and-decre-buton d-flex">
-                                                <i class="fa-solid fa-trash-can"></i>
-                                                <p class="quantity mb-0">7</p>
-                                                <i class="fa fa-plus" aria-hidden="true"></i>
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="selected-item pb-3">
-                            <div class="row">
-                                <div class="col-4 img-container">
-                                    <img src="home/available-items/pizza.png" alt="" class="w-100">
-                                </div>
-                                <div class="col-8">
-                                    <div class="row content-container">
-                                        <div class="col-7">
-                                            <h6 class="title mt-2">Cheese Pizza</h6>
-                                            <p class="mb-0">OMI 80</p>
-                                        </div>
-                                        <div class="col-5 incre-and-decre-buton-col">
-                                            <div class="incre-and-decre-buton d-flex">
-                                                <i class="fa-solid fa-trash-can"></i>
-                                                <p class="quantity mb-0">2</p>
-                                                <i class="fa fa-plus" aria-hidden="true"></i>
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </div>
-                                
                             </div>
                         </div>  
                     </div>
@@ -126,3 +124,4 @@
         </div>
     </div>     
 </section>
+

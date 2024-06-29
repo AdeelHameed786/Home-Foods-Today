@@ -8,11 +8,10 @@
     }
 
     @media (max-width: 1000px) {
-
-    .footer-container {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
+        .footer-container {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
     }
 </style>    
 
@@ -76,14 +75,18 @@
     
 </footer>
 
-
+{{-- jQuery --}}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+{{-- bootstrap js --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
+{{-- swiper --}}
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+{{-- script.js --}}
 <script src="js/script.js"></script>
 
-@yield("script")
-        
+@stack("script")
+
+
 </body>
 
 </html>

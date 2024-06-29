@@ -23,5 +23,4 @@
             <div class="swiper-button-prev"></div>
         </div>
     </div>
-    
 </section>

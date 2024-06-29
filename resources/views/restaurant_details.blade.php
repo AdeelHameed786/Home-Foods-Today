@@ -919,8 +919,8 @@
         </div>
     </div> <!-- End Review Modal -->
 </main>
-    
-@section('script')
+          
+@push('script')
     <script>
         const tabsBox = document.querySelector(".tabs-box");
         const allTabs = tabsBox.querySelectorAll(".tab");
@@ -1002,5 +1002,5 @@
         tabsBox.addEventListener("touchmove", dragging);
         document.addEventListener("touchend", dragStop);
     </script>
-@endsection
+@endpush
 @include('components.footer')

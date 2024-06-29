@@ -4,7 +4,13 @@
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center mt-md-5 mt-4 ">
                 <div class="card card-3">
-                    <img src="/home/popular1.png" class="card-img-top" alt="...">
+                    <div class="main-img-container position-relative">
+                        <img src="/home/foodWorld.png" class="card-img-top" alt="...">
+                        <div class="off-and-fast-label position-absolute d-flex gap-2">
+                            <div class="off-label d-flex align-items-center gap-1"><img src="/home/tag-icon.png" alt=""> 10% off</div>
+                            <div class="fast-label d-flex align-items-center gap-1"><img src="/home/clock-icon.png" alt=""> Fast</div>
+                        </div>
+                    </div>
                     <div class="content">
                         <div class="d-flex mt-md-4 mt-3 gap-2">
                             <img src="/home/foodWorldLogo.png" alt="" class="restaurant-logo">
@@ -22,7 +28,13 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center mt-md-5 mt-4 ">
                 <div class="card card-3">
-                    <img src="/home/pizzaHub.png" class="card-img-top" alt="...">
+                    <div class="main-img-container position-relative">
+                        <img src="/home/pizzahub.png" class="card-img-top" alt="...">
+                        <div class="off-and-fast-label position-absolute d-flex gap-2">
+                            <div class="off-label d-flex align-items-center gap-1"><img src="/home/tag-icon.png" alt=""> 10% off</div>
+                            <div class="fast-label d-flex align-items-center gap-1"><img src="/home/clock-icon.png" alt=""> Fast</div>
+                        </div>
+                    </div>
                     <div class="content">
                         <div class="d-flex mt-md-4 mt-3 gap-2">
                             <img src="/home/pizzaHubLogo.png" alt="" class="restaurant-logo">
@@ -40,7 +52,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center mt-md-5 mt-4 ">
                 <div class="card card-3">
-                    <img src="/home/donutsHut.png" class="card-img-top" alt="...">
+                    <img src="/home/donuts-hut.png" class="card-img-top" alt="...">
                     <div class="content">
                         <div class="d-flex mt-md-4 mt-3 gap-2">
                             <img src="/home/donutsHutLogo.png" alt="" class="restaurant-logo">
@@ -76,7 +88,7 @@
             </div>  
             <div class="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center mt-md-5 mt-4 ">
                 <div class="card card-3">
-                    <img src="/home/ruby.png" class="card-img-top" alt="...">
+                    <img src="/home/rubby-restaurant.png" class="card-img-top" alt="...">
                     <div class="content">
                         <div class="d-flex mt-md-4 mt-3 gap-2">
                             <img src="/home/rubyLogo.png" alt="" class="restaurant-logo">
@@ -94,7 +106,13 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center mt-md-5 mt-4 ">
                 <div class="card card-3">
-                    <img src="/home/kfc.png" class="card-img-top" alt="...">
+                    <div class="main-img-container position-relative">
+                        <img src="/home/kfc.png" class="card-img-top" alt="...">
+                        <div class="off-and-fast-label position-absolute d-flex gap-2">
+                            <div class="off-label d-flex align-items-center gap-1"><img src="/home/tag-icon.png" alt=""> 10% off</div>
+                            <div class="fast-label d-flex align-items-center gap-1"><img src="/home/clock-icon.png" alt=""> Fast</div>
+                        </div>
+                    </div>
                     <div class="content">
                         <div class="d-flex mt-md-4 mt-3 gap-2">
                             <img src="/home/kfcLogo.png" alt="" class="restaurant-logo">
@@ -112,7 +130,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center mt-md-5 mt-4 ">
                 <div class="card card-3">
-                    <img src="/home/redSquare.png" class="card-img-top" alt="...">
+                    <img src="/home/red-square.png" class="card-img-top" alt="...">
                     <div class="content">
                         <div class="d-flex mt-md-4 mt-3 gap-2">
                             <img src="/home/redSquareLogo.png" alt="" class="restaurant-logo">
@@ -130,7 +148,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center mt-md-5 mt-4 ">    
                 <div class="card card-3">
-                    <img src="/home/ruby.png" class="card-img-top" alt="...">
+                    <img src="/home/taco.png" class="card-img-top" alt="...">
                     <div class="content">
                         <div class="d-flex mt-md-4 mt-3 gap-2">
                             <img src="/home/tacoLogo.png" alt="" class="restaurant-logo">

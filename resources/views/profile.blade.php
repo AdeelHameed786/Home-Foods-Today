@@ -8,23 +8,23 @@
             <form>
                 <div class="two-fields-in-a-row-container mb-md-4 mb-0">
                     <div class="half-width-label-and-field field-and-label-container flex-column align-items-start gap-2 mb-md-0 mb-3">  
-                        <label for="first-name"><b>First Name</b></label>
+                        <label for="first-name">First Name</label>
                         <input type="text" class="form-control child-input" id="first-name" placeholder="Efat">
                     </div>
                     <div class="half-width-label-and-field field-and-label-container flex-column align-items-start gap-2 mb-md-0 mb-3">
-                        <label for="last-name"><b>Last Name</b></label>
+                        <label for="last-name">Last Name</label>
                         <input type="text" class="form-control child-input" id="last-name" placeholder="Ara Mim">
                     </div>
                 </div>
                 <div class="one-field-in-a-row-container mb-md-4 mb-3">
                     <div class="full-width-label-and-field field-and-label-container flex-column align-items-start gap-2">
-                        <label for="email-address"><b>Email Address</b></label>
+                        <label for="email-address">Email Address</label>
                         <input type="email" class="form-control child-input" id="email-address" placeholder="efat@gmail.com">
                     </div>
                 </div>  
                 <div class="one-field-in-a-row-container mb-md-4 mb-3">
                     <div class="full-width-label-and-field field-and-label-container flex-column align-items-start gap-2">
-                        <label for="password"><b>Password</b></label>
+                        <label for="password">Password</label>
                         <div class="input-container">
                             <input type="type" class="form-control password-input-field" id="password" placeholder="homefoodstoday123">
                         </div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="one-field-in-a-row-container mb-md-4 mb-3">
                     <div class="full-width-label-and-field field-and-label-container flex-column align-items-start gap-2">
-                        <label for="password"><b>Contact Number</b></label>
+                        <label for="password">Contact Number</label>
                         <div class="input-container">
                             <input type="tel" class="form-control password-input-field" id="password" placeholder="+968 91 234 567">
                         </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="one-field-in-a-row-container mb-md-4 mb-3">
                     <div class="full-width-label-and-field field-and-label-container flex-column align-items-start gap-2">
-                        <label for="password"><b>House Address</b></label>
+                        <label for="password">House Address</label>
                         <div class="input-container">
                             <input type="tel" class="form-control password-input-field" id="password" placeholder="House # 123 Al Hail Street">
                         </div>
@@ -48,17 +48,17 @@
                 </div>
                 <div class="two-fields-in-a-row-container mb-md-4 mb-0">
                     <div class="half-width-label-and-field field-and-label-container flex-column align-items-start gap-2 mb-md-0 mb-3">  
-                        <label for="city"><b>City</b></label>
+                        <label for="city">City</label>
                         <input type="text" class="form-control child-input" id="city" placeholder="Salalah">
                     </div>
                     <div class="half-width-label-and-field field-and-label-container flex-column align-items-start gap-2 mb-md-0 mb-3">
-                        <label for="state"><b>State</b></label>
+                        <label for="state">State</label>
                         <input type="text" class="form-control child-input" id="state" placeholder="Dhofar Governorate of Oman">
                     </div>
                 </div>
                 <div class="selected-payment-methods-container mb-md-4 mb-3">
                     <div class="row">
-                        <label><b>My payment methods</b></label>
+                        <label>My payment methods</label>
                         <div class="selected-payment-methods mt-2">
                             <p class="mb-0">You have no saved payment options yet.</p>
                         </div>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="notification-container mb-md-4 mb-3">
                     <div class="row">
-                        <label><b>Notification</b></label>
+                        <label>Notification</label>
                         <div class="notification d-flex justify-content-between mt-2">
                             <p class="mb-0">Push Notification</p>
                             <label class="switch">
@@ -78,7 +78,7 @@
                 </div>
                 <div class="connected-accounts-container mb-md-4 mb-3">
                     <div class="row">
-                        <label><b>Connected Accounts</b></label>
+                        <label>Connected Accounts</label>
                         <div class="connected-accounts mt-3">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6 mb-md-0 mb-2 d-flex px-2">

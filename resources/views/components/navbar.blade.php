@@ -16,7 +16,7 @@
                                             <path
                                                 d="M11.8153 10.3439C12.6061 9.2673 13.0732 7.9382 13.0732 6.5C13.0732 2.91015 10.163 0 6.57318 0C2.98333 0 0.0731812 2.91015 0.0731812 6.5C0.0731812 10.0899 2.98333 13 6.57318 13C8.01176 13 9.3412 12.5327 10.4179 11.7415L10.4171 11.7422C10.4466 11.7822 10.4794 11.8204 10.5156 11.8566L14.3661 15.7071C14.7566 16.0976 15.3898 16.0976 15.7803 15.7071C16.1708 15.3166 16.1708 14.6834 15.7803 14.2929L11.9298 10.4424C11.8936 10.4062 11.8553 10.3734 11.8153 10.3439ZM12.0732 6.5C12.0732 9.53757 9.61075 12 6.57318 12C3.53561 12 1.07318 9.53757 1.07318 6.5C1.07318 3.46243 3.53561 1 6.57318 1C9.61075 1 12.0732 3.46243 12.0732 6.5Z"
                                                 fill="black"></path>
-                                        </svg>
+                                        </svg>  
                                         <input class="form-control me-2 py-2" type="search" placeholder="Find for restaurant"
                                         aria-label="Search">
                                     </form>
@@ -41,18 +41,24 @@
                             </div>
                             @endif
                             <div class="col-lg-3 col-md-4 d-flex justify-content-lg-center justify-content-end">
-                                <div class="select-container ">
+                                <div class="select-container language-select-container">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M10.5 0C12.5767 0 14.6068 0.615814 16.3335 1.76957C18.0602 2.92332 19.406 4.5632 20.2007 6.48182C20.9955 8.40045 21.2034 10.5116 20.7982 12.5484C20.3931 14.5852 19.3931 16.4562 17.9246 17.9246C16.4562 19.3931 14.5852 20.3931 12.5484 20.7982C10.5116 21.2034 8.40045 20.9955 6.48182 20.2007C4.5632 19.406 2.92332 18.0602 1.76957 16.3335C0.615812 14.6068 0 12.5767 0 10.5C0.0032692 7.71623 1.11057 5.04741 3.07899 3.07899C5.04741 1.11057 7.71623 0.00326926 10.5 0ZM2.10309 6.58823H6.23926C6.68937 4.72128 7.5103 2.9639 8.65323 1.42059C7.23434 1.71217 5.90321 2.33125 4.76598 3.22845C3.62874 4.12565 2.71688 5.27616 2.10309 6.58823ZM1.23529 10.5C1.2346 11.4067 1.36745 12.3085 1.62956 13.1765H5.985C5.69125 11.4042 5.69125 9.59575 5.985 7.82353H1.62956C1.36745 8.69149 1.2346 9.59332 1.23529 10.5ZM10.5 19.7647C10.5257 19.7648 10.5511 19.7595 10.5745 19.749C10.5979 19.7386 10.6189 19.7232 10.6359 19.704C11.9618 18.2762 12.9356 16.4428 13.4853 14.4118H7.5147C8.06441 16.4428 9.03823 18.2762 10.3641 19.704C10.3811 19.7232 10.4021 19.7386 10.4255 19.749C10.4489 19.7595 10.4743 19.7648 10.5 19.7647ZM13.7622 13.1765C14.0793 11.4062 14.0793 9.59376 13.7622 7.82353H7.23779C6.92074 9.59376 6.92074 11.4062 7.23779 13.1765H13.7622ZM19.7647 10.5C19.7654 9.59332 19.6325 8.69149 19.3704 7.82353H15.015C15.3087 9.59575 15.3087 11.4042 15.015 13.1765H19.3704C19.6325 12.3085 19.7654 11.4067 19.7647 10.5ZM10.5 1.23529C10.4743 1.23515 10.4489 1.2405 10.4255 1.25097C10.4021 1.26145 10.3811 1.27681 10.3641 1.29603C9.03823 2.72382 8.06441 4.55721 7.5147 6.58823H13.4853C12.9356 4.55721 11.9618 2.72382 10.6359 1.29603C10.6189 1.27681 10.5979 1.26145 10.5745 1.25097C10.5511 1.2405 10.5257 1.23515 10.5 1.23529ZM12.3468 1.42059C13.4897 2.9639 14.3106 4.72128 14.7607 6.58823H18.8969C18.2831 5.27616 17.3713 4.12565 16.234 3.22845C15.0968 2.33125 13.7657 1.71217 12.3468 1.42059ZM18.8969 14.4118H14.7607C14.3106 16.2787 13.4897 18.0361 12.3468 19.5794C13.7657 19.2878 15.0968 18.6687 16.234 17.7715C17.3713 16.8743 18.2831 15.7238 18.8969 14.4118ZM8.65323 19.5794C7.5103 18.0361 6.68937 16.2787 6.23926 14.4118H2.10309C2.71688 15.7238 3.62874 16.8743 4.76598 17.7715C5.90321 18.6687 7.23434 19.2878 8.65323 19.5794Z"
                                             fill="black" />
                                     </svg>
-                                    <select class="form-select form-select-sm"
-                                        aria-label=".form-select-lg example">
-                                        <option>Eng</option>
-                                        <option selected>Arabic</option>
-                                    </select>
+                                    
+                                    <div class="language-selector">
+                                        <div class="label">
+                                            <span class="selected-language">Arabic</span>
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <div class="options" style="display: none">
+                                            <div>English</div>
+                                            <div class="selected">Arabic</div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="d-flex justify-content-around align-items-center">
                                     <div class="shopping-cart-icon-container">
@@ -130,6 +136,55 @@
            
         </nav>
         @endif  
-      
 </div>
+
+@section('script')
+    <script>
+        const languageSelector = document.querySelector('.navbar-container .nav-1 .language-selector');
+        const languageSelectorLabel = document.querySelector('.navbar-container .nav-1 .language-selector .label');
+        
+        const languageSelectorLabelText = document.querySelector('.navbar-container .nav-1 .language-selector .label .selected-language');
+        const languageSelectorOptions = document.querySelector('.navbar-container .nav-1 .language-selector .options');
+
+       // Event listener for languageSelectorLabel
+    languageSelectorLabel.addEventListener("click", function(event) {
+        event.stopPropagation(); // Prevent the click event from propagating to the body
+        toggleOptionsDisplay();
+    });
+
+    // Event listener for clicks anywhere on the document body
+    document.body.addEventListener("click", function(event) {
+        if (languageSelectorOptions.style.display === "block") {
+            var targetElement = event.target;
+            // Check if the clicked element is outside languageSelectorOptions
+            if (!languageSelectorOptions.contains(targetElement) && targetElement !== languageSelectorLabel) {
+                languageSelectorOptions.style.display = "none";
+            }
+        }
+    });
+
+    // Function to toggle languageSelectorOptions display
+    function toggleOptionsDisplay() {
+        if (languageSelectorOptions.style.display === "none") {
+            languageSelectorOptions.style.display = "block";
+        } else {
+            languageSelectorOptions.style.display = "none";
+        }
+    }
+
+        languageSelectorOptions.addEventListener('click', (e) => {
+            if (e.target.tagName === 'DIV') {
+                e.stopPropagation();
+                languageSelectorLabelText.textContent = e.target.textContent;
+                e.target.classList.add('selected');
+                Array.from(e.target.parentNode.children).forEach((child) => {
+                    if (child !== e.target) {
+                        child.classList.remove('selected');
+                    }
+                });
+                languageSelectorOptions.style.display = 'none';
+            }
+        });
+    </script>
+@endsection
 

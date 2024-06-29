@@ -34,4 +34,5 @@ Route::get('favourites', function () {
 })->name('favourites');
 Route::get('get-location', function () {
     return view('get_location');
-})->name('get-locaation');
+})->name('get-locaation');  
+    

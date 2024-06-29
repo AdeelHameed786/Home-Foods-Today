@@ -1,4 +1,4 @@
-{{-- <section class="features-and-app-download-section" >
+<section class="features-and-app-download-section">
     <div class="container p-md-5 py-4">
         <div class="features-container">
             <div class="row p-5 gap-lg-0 gap-3">
@@ -37,20 +37,28 @@
         
     </div>
         <div class="app-download-container">
-            <img class="w-100" src="/home/AppDownload.png" alt="">
-            <div class="row content">
-            
-                <div style="background-color: transparent;" class="d-flex flex-column  justify-content-end">
-                    <h2 style="font-size: 60px; color:#913737">Install the app</h2>
-                    <p style="font-size: 18px">It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p> 
-                    <div class="download-buttons">
-                        <img src="home/google-play-download-imge.png" alt="">    
-                        <img src="home/apple-store-download-image.png" alt="">    
-                    </div>  
-                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mobile-images-container d-flex align-items-end">
+                        <img src="home/download-apps-mobiles.png" alt="" class="mobile-images">
+                    </div>
+                    <div class="col-md-6 content-container">
+                         <div class="content">
+                             
+                            <h2 class="title">Install the app</h2>
+                            <p class="desc">It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p> 
+                            <div class="download-buttons d-flex gap-2">
+                                <img src="home/google-play-download-imge.png" alt="">    
+                                <img src="home/apple-store-download-image.png" alt="">    
+                            </div>  
+                            
+                         </div>   
+                    </div>
+                 </div>
             </div>
+           
         </div>
-</section> --}}
+</section>
 
 @section('script') 
     <script>

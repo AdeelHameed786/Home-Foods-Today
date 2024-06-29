@@ -182,9 +182,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
     
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
     const eyeIcons = document.querySelectorAll('.fa-eye, .fa-eye-slash');
 
@@ -227,6 +224,60 @@ document.addEventListener('DOMContentLoaded', function() {
         cart.classList.toggle('shopping-cart-open');
     });    
 }); 
+
+// shopping cart - increment and decrement functionality
+document.addEventListener("DOMContentLoaded", function() {
+    const plusIcons = document.querySelectorAll(".fa-plus");
+    const minusIcons = document.querySelectorAll(".fa-trash-can");
+    const quantityElements = document.querySelectorAll(".quantity");
+
+    plusIcons.forEach(function(plusIcon, index) {
+        const minusIcon = minusIcons[index];
+        const quantityElement = quantityElements[index];
+
+        plusIcon.addEventListener("click", function() {
+            let quantity = parseInt(quantityElement.textContent);
+            quantity++;
+            quantityElement.textContent = quantity;
+            if (quantity > 1) {
+                minusIcon.classList.remove("fa-trash-can");
+                minusIcon.classList.add("fa-minus");
+                minusIcon.style.display = "inline";
+            } else {
+                minusIcon.style.display = "none";
+            }
+        });
+
+        minusIcon.addEventListener("click", function() {
+            let quantity = parseInt(quantityElement.textContent);
+            if (quantity > 1) {
+                quantity--;
+                quantityElement.textContent = quantity;
+                if (quantity === 1) {
+                    minusIcon.classList.remove("fa-minus");
+                    minusIcon.classList.add("fa-trash-can");
+                }
+            } else {
+                // Only one item left, handle deletion
+                minusIcon.style.display = "none";
+                
+                // You can also remove the entire selected item container
+                minusIcon.closest(".selected-item").remove();
+            }
+        });
+    });
+});
+
+
+// Import the functions you need from the SDKs you need
+//   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-librariesk
+
+  // Initialize Firebase
+//   const app = initializeApp(firebaseConfig);
+
+
 
 
 
